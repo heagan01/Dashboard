@@ -1,0 +1,69 @@
+body {
+	background-color: #aaa;
+}
+
+.wrapper {
+	width: 450px;
+	height: 100px;
+	position: relative;
+	background-color: #000;
+	border-radius: 4px;
+}
+
+.player1 {
+	height: 65px;
+	width: 65px;
+	border-bottom-right-radius: 50%;
+}
+
+.user1name {
+	font-family: 'Open Sans', sans-serif;
+	color: #aaa;
+	position: absolute;
+	margin-left: 77px;
+	font-size: 20px;
+	top: 18%;
+}
+
+.points1 {
+	font-family: 'Open Sans', sans-serif;
+	color: #aaa;
+	position: absolute;
+	margin-left: 155px;
+	font-size: 45px;
+	top: -25%;
+}
+
+.player2 {
+	height: 65px;
+	width: 65px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	border-bottom-left-radius: 50%;
+}
+
+.user2name {
+	font-family: 'Open Sans', sans-serif;
+	color: #aaa;
+	position: absolute;
+	margin-left: 300px;
+	font-size: 20px;
+	top: 18%;
+}
+
+.vsIndicator {
+	margin-left: 230px;
+	position: absolute;
+	color: #aaa;
+	top: 40%;
+}
+
+.points2 {
+	font-family: 'Open Sans', sans-serif;
+	color: #aaa;
+	position: absolute;
+	margin-left: 275px;
+	font-size: 45px;
+	top: -25%;
+}
